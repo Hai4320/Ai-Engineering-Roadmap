@@ -1,20 +1,20 @@
 
 # 🧪 Capstone Projects
 
-Capstone projects bring everything you’ve learned into real-world, end-to-end AI applications. These projects are designed to showcase your technical depth, creativity, and readiness to work as an AI engineer.
+Capstone project giúp bạn tổng hợp mọi thứ đã học vào các ứng dụng AI thực tế, end-to-end. Các dự án này được thiết kế để thể hiện chiều sâu kỹ thuật, sự sáng tạo, và sự sẵn sàng làm việc như một AI engineer thực thụ.
 
-You’ll define the problem, build and train models, evaluate results, and deploy your solution.
+Bạn sẽ tự định nghĩa bài toán, xây dựng và train model, đánh giá kết quả, và deploy giải pháp của mình.
 
 ---
 
-## 🎯 Learning Objectives
+## 🎯 Mục Tiêu Học Tập
 
-By the end of your capstone experience, you should be able to:
+Sau khi hoàn thành capstone, bạn sẽ có thể:
 
-- Design and implement full-stack AI systems
-- Handle real-world data and edge cases
-- Collaborate using Git, Docker, or CI/CD pipelines
-- Communicate your project’s purpose and results clearly
+- Thiết kế và triển khai hệ thống AI full-stack
+- Xử lý dữ liệu thực tế và các edge case
+- Cộng tác bằng Git, Docker, hoặc pipeline CI/CD
+- Trình bày rõ ràng mục đích và kết quả dự án
 
 ---
 
@@ -22,61 +22,61 @@ By the end of your capstone experience, you should be able to:
 
 ```bash
 my-capstone-project/
-├── data/                 # Raw and processed data
-├── notebooks/            # Jupyter or Colab notebooks
-├── src/                  # Modularized Python code
-├── models/               # Saved model weights or checkpoints
-├── app/                  # Optional: frontend or API app
+├── data/                 # Dữ liệu thô và đã xử lý
+├── notebooks/            # Notebook Jupyter hoặc Colab
+├── src/                  # Code Python theo module
+├── models/               # Model weight hoặc checkpoint đã lưu
+├── app/                  # Tùy chọn: frontend hoặc API app
 ├── requirements.txt      # Dependencies
-├── Dockerfile            # Optional containerization
-├── README.md             # Project overview and usage
-└── LICENSE               # Open source license
+├── Dockerfile            # Container hóa (tùy chọn)
+├── README.md             # Tổng quan dự án và cách dùng
+└── LICENSE               # Giấy phép mã nguồn mở
 ```
 
 ---
 
-## 🚀 Capstone Ideas
+## 🚀 Ý Tưởng Capstone
 
-Choose one or more projects below, or design your own! Try to scope your first capstone to 2–4 weeks.
+Chọn một hoặc nhiều dự án bên dưới, hoặc tự thiết kế dự án riêng! Hãy cố giới hạn capstone đầu tiên trong khoảng 2–4 tuần.
 
 ### 1. AI Chat Assistant (RAG + LLM)
 
-Build a domain-specific chatbot that can answer questions from custom documents using RAG (Retrieval-Augmented Generation).
+Xây dựng chatbot chuyên ngành có thể trả lời câu hỏi từ tài liệu riêng bằng RAG (Retrieval-Augmented Generation).
 
-- Tools: LangChain / Haystack, OpenAI or Hugging Face LLMs, Chroma or FAISS
-- Bonus: Add a Gradio or Streamlit interface
+- Công cụ: LangChain / Haystack, LLM của OpenAI hoặc Hugging Face, Chroma hoặc FAISS
+- Bonus: Thêm giao diện Gradio hoặc Streamlit
 
 ### 2. Image Classifier + Deployment
 
-Train a deep learning model to classify custom images (e.g. plant diseases, food, art).
+Train một model deep learning để phân loại ảnh tùy chỉnh (vd: bệnh trên cây trồng, món ăn, nghệ thuật).
 
-- Tools: PyTorch/TensorFlow, FastAPI or Gradio, Hugging Face
-- Bonus: Host on Hugging Face Spaces or Render
+- Công cụ: PyTorch/TensorFlow, FastAPI hoặc Gradio, Hugging Face
+- Bonus: Host trên Hugging Face Spaces hoặc Render
 
 ### 3. Multi-Class Text Classifier
 
-Build a pipeline to classify documents or tweets by topic or sentiment.
+Xây dựng pipeline phân loại tài liệu hoặc tweet theo chủ đề hoặc cảm xúc.
 
-- Tools: scikit-learn or Hugging Face Transformers
-- Bonus: Include preprocessing steps and visualizations
+- Công cụ: scikit-learn hoặc Hugging Face Transformers
+- Bonus: Thêm bước tiền xử lý và visualization
 
 ### 4. AI Agent for Task Automation
 
-Use LangChain + Tools to build an LLM agent that can search, summarize, or complete repetitive tasks.
+Dùng LangChain + Tools để xây dựng LLM agent có thể tìm kiếm, tóm tắt, hoặc hoàn thành tác vụ lặp lại.
 
-- Tools: LangChain Agents, SerpAPI, Browser tools
-- Bonus: Add memory and goal-based workflows
+- Công cụ: LangChain Agents, SerpAPI, công cụ trình duyệt
+- Bonus: Thêm bộ nhớ và luồng xử lý theo mục tiêu
 
 ### 5. Reinforcement Learning Game Agent
 
-Train an RL agent to play a simple game (e.g. CartPole, Flappy Bird, custom env).
+Train một RL agent chơi một game đơn giản (vd: CartPole, Flappy Bird, môi trường tùy chỉnh).
 
-- Tools: OpenAI Gym, Stable-Baselines3
-- Bonus: Visualize learning progress and game play
+- Công cụ: OpenAI Gym, Stable-Baselines3
+- Bonus: Trực quan hóa tiến trình học và quá trình chơi
 
 ---
 
-## 🛠️ Tools to Use
+## 🛠️ Công Cụ Nên Dùng
 
 - Python, Git/GitHub, Jupyter/Colab
 - Docker, Hugging Face, Streamlit, Gradio
@@ -86,26 +86,26 @@ Train an RL agent to play a simple game (e.g. CartPole, Flappy Bird, custom env)
 
 ## 📝 Project Deliverables
 
-- Clean and well-commented code
-- Project `README.md` (overview, usage, setup)
-- At least one form of result sharing:  
-  - Live demo  
-  - GitHub repo  
-  - Blog post or video walkthrough
+- Code sạch, có comment rõ ràng
+- `README.md` của dự án (tổng quan, cách dùng, cài đặt)
+- Ít nhất một hình thức chia sẻ kết quả:  
+  - Demo trực tiếp  
+  - Repo GitHub  
+  - Bài blog hoặc video walkthrough
 
 ---
 
 ## ✅ Final Capstone Checklist
 
-- [ ] Solved a meaningful problem with AI
-- [ ] Clean codebase with modular structure
-- [ ] Clear documentation (README, setup steps)
-- [ ] Demo or deployment available
-- [ ] Shared publicly (GitHub, Spaces, etc.)
+- [ ] Giải quyết một bài toán có ý nghĩa bằng AI
+- [ ] Codebase sạch, cấu trúc theo module
+- [ ] Tài liệu rõ ràng (README, các bước cài đặt)
+- [ ] Có demo hoặc bản deploy
+- [ ] Chia sẻ công khai (GitHub, Spaces, v.v.)
 
 ---
 
-🎉 Congratulations on completing the AI Engineering Curriculum!  
-You now have the knowledge and tools to build and contribute to real-world AI systems.
+🎉 Chúc mừng bạn đã hoàn thành AI Engineering Curriculum!  
+Giờ bạn đã có kiến thức và công cụ để xây dựng và đóng góp cho các hệ thống AI thực tế.
 
-Next up: Stay active in the open source AI community, contribute, and keep building.
+Tiếp theo: Tích cực tham gia cộng đồng AI mã nguồn mở, đóng góp, và tiếp tục xây dựng.
