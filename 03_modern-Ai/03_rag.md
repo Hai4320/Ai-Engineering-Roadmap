@@ -1,93 +1,93 @@
 # Retrieval-Augmented Generation (RAG)
 
-Retrieval-Augmented Generation (RAG) enhances LLMs by combining them with external data sources. Instead of relying solely on a model's internal knowledge, RAG enables dynamic access to updated or domain-specific content during generation.
+Retrieval-Augmented Generation (RAG) nâng cấp LLM bằng cách kết hợp chúng với nguồn dữ liệu bên ngoài. Thay vì chỉ dựa vào kiến thức nội tại của model, RAG cho phép truy cập động vào nội dung cập nhật hoặc chuyên ngành ngay trong lúc sinh câu trả lời.
 
-## Learning Objectives
+## Mục Tiêu Học Tập
 
-By the end of this module, you should be able to:
+Sau khi hoàn thành module này, bạn sẽ có thể:
 
-- Understand the RAG architecture and its components (retriever + generator)
-- Build a simple RAG pipeline using vector databases and LLMs
-- Fine-tune retrieval systems with embeddings
-- Apply RAG to real-world use cases (Q&A, chatbots, knowledge assistants)
+- Hiểu kiến trúc RAG và các thành phần của nó (retriever + generator)
+- Xây dựng pipeline RAG đơn giản dùng vector database và LLM
+- Fine-tune hệ thống retrieval với embedding
+- Áp dụng RAG vào bài toán thực tế (hỏi-đáp, chatbot, trợ lý tri thức)
 
-## Why It’s Important
+## Vì Sao Điều Này Quan Trọng
 
-LLMs have limited context windows and static training data. RAG solves this by letting the model *fetch* relevant information at inference time, making it suitable for up-to-date, factual, or enterprise-specific AI systems.
+LLM có context window giới hạn và dữ liệu train tĩnh. RAG giải quyết vấn đề này bằng cách cho phép model *lấy* thông tin liên quan ngay tại thời điểm inference, phù hợp cho hệ thống AI cần thông tin cập nhật, chính xác, hoặc chuyên biệt cho doanh nghiệp.
 
 
-## Core Topics & Resources
+## Chủ Đề Cốt Lõi & Tài Nguyên
 
 ### 1. RAG Fundamentals
 
-- [Retrieval-Augmented Generation – YouTube (AssemblyAI)](https://www.youtube.com/watch?v=qbIk7-JPB2c) — **Free**
-- [Hugging Face RAG Architecture Overview](https://huggingface.co/blog/rag) — **Free**
-- [RAG Explained – Zilliz](https://zilliz.com/blog/retrieval-augmented-generation-explained) — **Free**
+- [Retrieval-Augmented Generation – YouTube (AssemblyAI)](https://www.youtube.com/watch?v=qbIk7-JPB2c) — **Miễn phí**
+- [Hugging Face RAG Architecture Overview](https://huggingface.co/blog/rag) — **Miễn phí**
+- [RAG Explained – Zilliz](https://zilliz.com/blog/retrieval-augmented-generation-explained) — **Miễn phí**
 
-Covers:
-- Vector stores, retrievers, and generators
-- How RAG differs from fine-tuning
-- Overview of in-memory vs. persistent RAG systems
+Bao gồm:
+- Vector store, retriever, và generator
+- RAG khác fine-tuning ở điểm nào
+- Tổng quan hệ thống RAG in-memory so với persistent
 
 ### 2. Building a RAG Pipeline
 
-- [LangChain RAG Tutorial](https://docs.langchain.com/docs/use-cases/question-answering/) — **Free**
-- [Haystack RAG Implementation](https://docs.haystack.deepset.ai/docs/rag) — **Free**
-- [ChromaDB + OpenAI Demo](https://www.youtube.com/watch?v=GkZrTgV0nrw) — **Free**
+- [LangChain RAG Tutorial](https://docs.langchain.com/docs/use-cases/question-answering/) — **Miễn phí**
+- [Haystack RAG Implementation](https://docs.haystack.deepset.ai/docs/rag) — **Miễn phí**
+- [ChromaDB + OpenAI Demo](https://www.youtube.com/watch?v=GkZrTgV0nrw) — **Miễn phí**
 
-Covers:
-- Creating and using vector stores (Chroma, FAISS, Weaviate)
-- Embedding models (OpenAI, Hugging Face, SentenceTransformers)
-- Chunking, retrieval, and prompt integration
+Bao gồm:
+- Tạo và dùng vector store (Chroma, FAISS, Weaviate)
+- Embedding model (OpenAI, Hugging Face, SentenceTransformers)
+- Chunking, retrieval, và tích hợp vào prompt
 
 ### 3. Embeddings & Vector Databases
 
-- [OpenAI Embedding Guide](https://platform.openai.com/docs/guides/embeddings) — **Free tier available**
-- [Intro to FAISS – Facebook AI](https://github.com/facebookresearch/faiss) — **Free**
-- [ChromaDB Quickstart](https://docs.trychroma.com/) — **Free**
+- [OpenAI Embedding Guide](https://platform.openai.com/docs/guides/embeddings) — **Có gói miễn phí**
+- [Intro to FAISS – Facebook AI](https://github.com/facebookresearch/faiss) — **Miễn phí**
+- [ChromaDB Quickstart](https://docs.trychroma.com/) — **Miễn phí**
 
-Covers:
-- Text chunking, embedding creation
-- Storing and searching vectors
-- Semantic similarity vs. keyword search
+Bao gồm:
+- Chunking văn bản, tạo embedding
+- Lưu trữ và tìm kiếm vector
+- Semantic similarity so với tìm kiếm từ khóa
 
 ### 4. Evaluation & Optimization
 
-- [RAG Best Practices – Cohere](https://docs.cohere.com/docs/rag-best-practices) — **Free**
-- [Prompt Engineering for RAG](https://www.promptingguide.ai/techniques/rag) — **Free**
-- [Context Re-ranking with BGE/ColBERT](https://huggingface.co/spaces/mteb/leaderboard) — **Free**
+- [RAG Best Practices – Cohere](https://docs.cohere.com/docs/rag-best-practices) — **Miễn phí**
+- [Prompt Engineering for RAG](https://www.promptingguide.ai/techniques/rag) — **Miễn phí**
+- [Context Re-ranking with BGE/ColBERT](https://huggingface.co/spaces/mteb/leaderboard) — **Miễn phí**
 
-Covers:
-- Retrieval precision and recall
-- Re-ranking strategies
-- Optimizing chunk size, temperature, prompt context
+Bao gồm:
+- Độ chính xác (precision) và độ bao phủ (recall) của retrieval
+- Chiến lược re-ranking
+- Tối ưu kích thước chunk, temperature, context của prompt
 
 ### 5. Advanced RAG Resources
 
-- [Awesome RAG (GitHub)](https://github.com/0xpayne/awesome-rag) — **Curated list**
-- [RAG End-to-End Tutorial (YouTube, Pinecone)](https://www.youtube.com/watch?v=Vv0bKz0j7uY) — **Free**
-- [RAG with OpenAI and ChromaDB (Blog)](https://blog.langchain.dev/rag-openai-chromadb/) — **Free**
-- [RAG Evaluation and Metrics (Cohere)](https://docs.cohere.com/docs/rag-evaluation) — **Free**
+- [Awesome RAG (GitHub)](https://github.com/0xpayne/awesome-rag) — **Danh sách tổng hợp**
+- [RAG End-to-End Tutorial (YouTube, Pinecone)](https://www.youtube.com/watch?v=Vv0bKz0j7uY) — **Miễn phí**
+- [RAG with OpenAI and ChromaDB (Blog)](https://blog.langchain.dev/rag-openai-chromadb/) — **Miễn phí**
+- [RAG Evaluation and Metrics (Cohere)](https://docs.cohere.com/docs/rag-evaluation) — **Miễn phí**
 
-Covers:
-- End-to-end RAG pipelines
-- Evaluation and metrics for RAG
-- Open-source RAG tools and frameworks
+Bao gồm:
+- Pipeline RAG end-to-end
+- Đánh giá và chỉ số cho RAG
+- Công cụ và framework RAG mã nguồn mở
 
-## Suggested Projects & Practice
+## Gợi Ý Dự Án & Thực Hành
 
-- Build a "Chat with Docs" tool using LangChain and FAISS
-- Create a RAG-powered knowledge assistant for your notes or PDFs
-- Compare keyword vs. semantic search performance in a retrieval setup
-- Use Haystack or Chroma to deploy a RAG Q&A bot
+- Xây dựng công cụ "Chat with Docs" dùng LangChain và FAISS
+- Tạo trợ lý tri thức chạy bằng RAG cho ghi chú hoặc PDF của bạn
+- So sánh hiệu năng tìm kiếm từ khóa so với semantic search
+- Dùng Haystack hoặc Chroma để deploy bot hỏi-đáp bằng RAG
 
-## Checkpoint: Before You Move On
+## Checkpoint: Trước Khi Qua Phần Tiếp Theo
 
-You should now be able to:
+Bạn sẽ có thể:
 
-- Explain how RAG works and why it's used
-- Build a full RAG pipeline from documents to query output
-- Use vector databases and embeddings effectively
-- Optimize RAG for relevance and performance
+- Giải thích RAG hoạt động thế nào và vì sao được dùng
+- Xây dựng pipeline RAG đầy đủ từ tài liệu đến kết quả truy vấn
+- Dùng vector database và embedding hiệu quả
+- Tối ưu RAG để tăng độ liên quan và hiệu năng
 
-🔗 Next: [Prompt Engineering →](./04_prompt-engineering.md)
+🔗 Tiếp theo: [Prompt Engineering →](./04_prompt-engineering.md)

@@ -1,102 +1,102 @@
 # AI Tooling
 
-AI tooling refers to the software, libraries, and platforms that streamline development, experimentation, deployment, and collaboration in AI/ML workflows. The right tools can significantly boost your productivity and model performance.
+AI tooling chỉ các phần mềm, thư viện, và nền tảng giúp tinh gọn việc phát triển, thử nghiệm, deploy, và cộng tác trong workflow AI/ML. Công cụ đúng có thể tăng đáng kể năng suất và hiệu năng model của bạn.
 
-## Learning Objectives
+## Mục Tiêu Học Tập
 
-By the end of this module, you should be able to:
+Sau khi hoàn thành module này, bạn sẽ có thể:
 
-- Set up an effective environment for AI development
-- Use tools for experiment tracking, model deployment, and collaboration
-- Understand how to package and serve models
-- Explore no-code/low-code tools for rapid prototyping
+- Thiết lập môi trường hiệu quả cho phát triển AI
+- Dùng công cụ để theo dõi thử nghiệm (experiment tracking), deploy model, và cộng tác
+- Hiểu cách đóng gói và phục vụ (serve) model
+- Khám phá công cụ no-code/low-code cho prototyping nhanh
 
-## Why It’s Important
+## Vì Sao Điều Này Quan Trọng
 
-Modern AI isn't just about building models — it's about **deploying**, **monitoring**, and **scaling** them in the real world. Tooling is how great ideas become actual AI products.
+AI hiện đại không chỉ là xây dựng model — mà còn là **deploy**, **giám sát**, và **mở rộng quy mô** chúng trong thực tế. Tooling chính là cách để biến ý tưởng hay thành sản phẩm AI thực sự.
 
-## Core Topics & Resources
+## Chủ Đề Cốt Lõi & Tài Nguyên
 
 ### 1. Development Environments
 
-- [Jupyter Notebooks](https://jupyter.org/) — Interactive coding  
-- [VS Code + Python AI Extensions](https://code.visualstudio.com/) — Popular IDE  
-- [Google Colab](https://colab.research.google.com/) — **Free GPU** access
+- [Jupyter Notebooks](https://jupyter.org/) — Coding tương tác  
+- [VS Code + Python AI Extensions](https://code.visualstudio.com/) — IDE phổ biến  
+- [Google Colab](https://colab.research.google.com/) — Truy cập **GPU miễn phí**
 
-Covers:
-- Local vs. cloud environments
-- Notebooks vs. IDEs
-- Hardware acceleration (GPU/TPU)
+Bao gồm:
+- Môi trường local so với cloud
+- Notebook so với IDE
+- Tăng tốc phần cứng (GPU/TPU)
 
 ### 2. Experiment Tracking & Workflow
 
-- [Weights & Biases (WandB)](https://wandb.ai/) — **Free for individuals**  
-- [MLflow](https://mlflow.org/) — Open-source experiment tracking  
-- [Neptune.ai](https://neptune.ai/) — **Free tier available**
+- [Weights & Biases (WandB)](https://wandb.ai/) — **Miễn phí cho cá nhân**  
+- [MLflow](https://mlflow.org/) — Theo dõi thử nghiệm mã nguồn mở  
+- [Neptune.ai](https://neptune.ai/) — **Có gói miễn phí**
 
-Covers:
-- Tracking metrics, losses, and configs
-- Comparing model runs and hyperparameter tuning
-- Reproducibility of experiments
+Bao gồm:
+- Theo dõi metric, loss, và config
+- So sánh các lần chạy model và hyperparameter tuning
+- Khả năng tái lập (reproducibility) của thử nghiệm
 
 ### 3. Model Deployment
 
-- [FastAPI + Uvicorn Tutorial](https://fastapi.tiangolo.com/) — **Free**  
-- [Gradio](https://www.gradio.app/) — No-code app demos for ML models  
-- [Hugging Face Spaces](https://huggingface.co/spaces) — Free deployment
+- [FastAPI + Uvicorn Tutorial](https://fastapi.tiangolo.com/) — **Miễn phí**  
+- [Gradio](https://www.gradio.app/) — Demo ứng dụng no-code cho model ML  
+- [Hugging Face Spaces](https://huggingface.co/spaces) — Deploy miễn phí
 
-Covers:
-- Serving models via API or web apps
-- Creating interactive demos
-- Local vs. cloud deployments
+Bao gồm:
+- Phục vụ (serve) model qua API hoặc web app
+- Tạo demo tương tác
+- Deploy local so với cloud
 
 ### 4. Model Packaging & Versioning
 
-- [Docker for AI](https://docs.docker.com/get-started/overview/) — Containerize ML apps  
-- [DVC (Data Version Control)](https://dvc.org/) — Track datasets and models  
-- [ONNX](https://onnx.ai/) — Portable, interoperable models
+- [Docker for AI](https://docs.docker.com/get-started/overview/) — Đóng gói ứng dụng ML vào container  
+- [DVC (Data Version Control)](https://dvc.org/) — Theo dõi dataset và model  
+- [ONNX](https://onnx.ai/) — Model có thể chuyển đổi, tương thích đa nền tảng
 
-Covers:
-- Keeping track of models and datasets across projects
-- Reproducible ML pipelines
-- Sharing and deploying portable models
+Bao gồm:
+- Theo dõi model và dataset xuyên suốt các dự án
+- Pipeline ML có thể tái lập
+- Chia sẻ và deploy model dễ di chuyển (portable)
 
 ### 5. Collaboration & Open Source
 
-- [Git & GitHub](https://github.com/) — Version control and collaboration  
-- [Hugging Face Model Hub](https://huggingface.co/models) — Pretrained models + sharing  
-- [Kaggle](https://www.kaggle.com/) — Competitions + community notebooks
+- [Git & GitHub](https://github.com/) — Quản lý version và cộng tác  
+- [Hugging Face Model Hub](https://huggingface.co/models) — Model pre-trained + chia sẻ  
+- [Kaggle](https://www.kaggle.com/) — Cuộc thi + notebook cộng đồng
 
-Covers:
-- How to contribute to open-source AI tools
-- Sharing models, datasets, and projects with others
-- Finding reusable components for your AI stack
+Bao gồm:
+- Cách đóng góp cho công cụ AI mã nguồn mở
+- Chia sẻ model, dataset, và dự án với người khác
+- Tìm thành phần tái sử dụng cho AI stack của bạn
 
 ### 5. Advanced AI Tooling Resources
 
-- [Awesome MLOps (GitHub)](https://github.com/visenger/awesome-mlops) — **Curated list**
-- [AI Tooling Landscape (Papers with Code)](https://paperswithcode.com/area/ai) — **Free**
-- [MLOps Community](https://mlops.community/) — **Community**
-- [Best Practices for ML Engineering (Google)](https://developers.google.com/machine-learning/guides/rules-of-ml) — **Free**
+- [Awesome MLOps (GitHub)](https://github.com/visenger/awesome-mlops) — **Danh sách tổng hợp**
+- [AI Tooling Landscape (Papers with Code)](https://paperswithcode.com/area/ai) — **Miễn phí**
+- [MLOps Community](https://mlops.community/) — **Cộng đồng**
+- [Best Practices for ML Engineering (Google)](https://developers.google.com/machine-learning/guides/rules-of-ml) — **Miễn phí**
 
-Covers:
-- MLOps and production AI
-- Tooling trends and best practices
-- Community and open-source resources
+Bao gồm:
+- MLOps và AI trong production
+- Xu hướng tooling và best practice
+- Tài nguyên cộng đồng và mã nguồn mở
 
-## Suggested Projects & Practice
+## Gợi Ý Dự Án & Thực Hành
 
-- Deploy a model as a web app using Gradio or FastAPI
-- Track and compare training experiments with WandB or MLflow
-- Package a project with Docker for local + cloud use
-- Use Hugging Face Spaces to host a working demo
+- Deploy một model thành web app dùng Gradio hoặc FastAPI
+- Theo dõi và so sánh thử nghiệm train với WandB hoặc MLflow
+- Đóng gói dự án bằng Docker để dùng local + cloud
+- Dùng Hugging Face Spaces để host một demo hoạt động
 
-## Checkpoint: Before You Move On
-You should now be able to:
+## Checkpoint: Trước Khi Qua Phần Tiếp Theo
+Bạn sẽ có thể:
 
-- Set up an AI dev environment
-- Track, package, and deploy your models
-- Use tools to collaborate and share your work
-- Choose the right tools based on your AI project stage
+- Thiết lập môi trường phát triển AI
+- Theo dõi, đóng gói, và deploy model của bạn
+- Dùng công cụ để cộng tác và chia sẻ công việc
+- Chọn công cụ phù hợp theo từng giai đoạn dự án AI
 
-🔗 Next: [Capstone Projects →](../capstone-project/07_capstone-projects.md)
+🔗 Tiếp theo: [Capstone Projects →](../capstone-project/07_capstone-projects.md)
