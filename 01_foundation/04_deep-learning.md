@@ -1,87 +1,87 @@
-# Deep Learning for AI Engineering
+# Deep Learning cho AI Engineering
 
-Deep Learning is a subset of machine learning that uses neural networks with many layers (hence "deep"). It’s responsible for many of the recent advances in AI, such as image recognition, natural language processing, and game playing.
+Deep Learning là một nhánh con của machine learning, dùng neural network với nhiều layer (do đó gọi là "deep" - sâu). Nó đứng sau phần lớn các bước tiến gần đây của AI, như nhận diện hình ảnh, natural language processing, và chơi game.
 
-## Learning Objectives
+## Mục Tiêu Học Tập
 
-By the end of this module, you should be able to:
+Sau khi hoàn thành module này, bạn sẽ có thể:
 
-- Understand the principles behind deep neural networks (DNNs) and their building blocks
-- Implement and train deep learning models using popular libraries like TensorFlow and PyTorch
-- Master advanced architectures like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs)
-- Apply deep learning models to real-world tasks, including image classification, speech recognition, and time-series forecasting
+- Hiểu nguyên lý đứng sau deep neural network (DNN) và các thành phần cấu tạo
+- Triển khai và train model deep learning bằng các thư viện phổ biến như TensorFlow và PyTorch
+- Thành thạo các kiến trúc nâng cao như Convolutional Neural Networks (CNN) và Recurrent Neural Networks (RNN)
+- Áp dụng model deep learning vào bài toán thực tế, bao gồm phân loại hình ảnh, nhận diện giọng nói, và dự báo chuỗi thời gian (time-series forecasting)
 
-## Why It’s Important
+## Vì Sao Điều Này Quan Trọng
 
-Deep Learning has revolutionized AI by enabling computers to automatically learn representations from data, eliminating the need for hand-crafted features. It powers state-of-the-art systems in computer vision, natural language processing, and reinforcement learning.
+Deep Learning đã tạo nên cuộc cách mạng cho AI bằng cách giúp máy tính tự động học representation từ dữ liệu, loại bỏ nhu cầu thiết kế feature thủ công. Nó vận hành các hệ thống hiện đại nhất trong computer vision, natural language processing, và reinforcement learning.
 
-## Core Topics & Resources
+## Chủ Đề Cốt Lõi & Tài Nguyên
 
 ### 1. Introduction to Deep Learning
 
-- [Deep Learning Specialization – Coursera (Andrew Ng)](https://www.coursera.org/specializations/deep-learning) — **Free to audit**
-- [Deep Learning with Python – François Chollet](https://www.manning.com/books/deep-learning-with-python) — **Paid (eBook available)**
+- [Deep Learning Specialization – Coursera (Andrew Ng)](https://www.coursera.org/specializations/deep-learning) — **Miễn phí (audit)**
+- [Deep Learning with Python – François Chollet](https://www.manning.com/books/deep-learning-with-python) — **Trả phí (có bản eBook)**
 
-Covers:
-- Introduction to neural networks
-- Perceptrons and multi-layer perceptrons (MLPs)
-- Backpropagation and gradient descent
+Bao gồm:
+- Giới thiệu về neural network
+- Perceptron và multi-layer perceptron (MLP)
+- Backpropagation và gradient descent
 
-### 2. Convolutional Neural Networks (CNNs)
+### 2. Convolutional Neural Networks (CNN)
 
-- [Convolutional Neural Networks for Visual Recognition – Stanford (CS231n)](http://cs231n.stanford.edu/) — **Free**
-- [CS231n: Convolutional Neural Networks for Visual Recognition (YouTube)](https://www.youtube.com/playlist?list=PL8dDSKArO2-61T7LMxC1SPAvj8ZEK2Lfz) — **Free**
-- [Practical Deep Learning for Coders – Fast.ai](https://course.fast.ai/) — **Free**
+- [Convolutional Neural Networks for Visual Recognition – Stanford (CS231n)](http://cs231n.stanford.edu/) — **Miễn phí**
+- [CS231n: Convolutional Neural Networks for Visual Recognition (YouTube)](https://www.youtube.com/playlist?list=PL8dDSKArO2-61T7LMxC1SPAvj8ZEK2Lfz) — **Miễn phí**
+- [Practical Deep Learning for Coders – Fast.ai](https://course.fast.ai/) — **Miễn phí**
 
-Covers:
-- Convolutional operations and pooling
-- CNN architecture (LeNet, AlexNet, VGG, ResNet)
-- Image classification, object detection, and segmentation
+Bao gồm:
+- Phép toán convolution và pooling
+- Kiến trúc CNN (LeNet, AlexNet, VGG, ResNet)
+- Phân loại hình ảnh, object detection, và segmentation
 
-### 3. Recurrent Neural Networks (RNNs)
+### 3. Recurrent Neural Networks (RNN)
 
-- [Sequence Models – Coursera (Andrew Ng)](https://www.coursera.org/learn/sequence-models) — **Free to audit**
-- [Understanding LSTMs – Colah’s Blog](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) — **Free**
+- [Sequence Models – Coursera (Andrew Ng)](https://www.coursera.org/learn/sequence-models) — **Miễn phí (audit)**
+- [Understanding LSTMs – Colah’s Blog](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) — **Miễn phí**
 
-Covers:
-- Recurrent Neural Networks (RNNs)
-- Long Short-Term Memory (LSTM) networks
-- Applications in speech, text, and time series
+Bao gồm:
+- Recurrent Neural Networks (RNN)
+- Mạng Long Short-Term Memory (LSTM)
+- Ứng dụng trong giọng nói, văn bản, và chuỗi thời gian
 
 ### 4. Generative Models
 
-- [Generative Adversarial Networks (GANs) – Coursera](https://www.coursera.org/learn/building-generative-adversarial-networks-gans) — **Free to audit**
-- [Generative Deep Learning – O'Reilly](https://www.oreilly.com/library/view/generative-deep-learning/9781492041931/) — **Paid**
+- [Generative Adversarial Networks (GANs) – Coursera](https://www.coursera.org/learn/building-generative-adversarial-networks-gans) — **Miễn phí (audit)**
+- [Generative Deep Learning – O'Reilly](https://www.oreilly.com/library/view/generative-deep-learning/9781492041931/) — **Trả phí**
 
-Covers:
-- Introduction to Generative Adversarial Networks (GANs)
-- Variational Autoencoders (VAEs)
-- Applications: image generation, style transfer, etc.
+Bao gồm:
+- Giới thiệu về Generative Adversarial Networks (GAN)
+- Variational Autoencoders (VAE)
+- Ứng dụng: sinh ảnh, chuyển đổi phong cách (style transfer), v.v.
 
 ### 5. Deep Learning Frameworks
 
-- [PyTorch Tutorials](https://pytorch.org/tutorials/) — **Free**
-- [TensorFlow Tutorials](https://www.tensorflow.org/tutorials) — **Free**
+- [PyTorch Tutorials](https://pytorch.org/tutorials/) — **Miễn phí**
+- [TensorFlow Tutorials](https://www.tensorflow.org/tutorials) — **Miễn phí**
 
-Covers:
-- Building deep learning models with PyTorch and TensorFlow
-- Neural network layers and activation functions
-- Optimizers, loss functions, and evaluation metrics
+Bao gồm:
+- Xây dựng model deep learning với PyTorch và TensorFlow
+- Layer neural network và activation function
+- Optimizer, loss function, và các chỉ số đánh giá
 
-## Suggested Practice & Projects
+## Gợi Ý Thực Hành & Dự Án
 
-- Implement an image classifier using CNNs (e.g., CIFAR-10 dataset)
-- Build a time-series prediction model using RNNs
-- Generate images with GANs (e.g., using a DCGAN)
-- Apply deep learning to real-world tasks like sentiment analysis or video classification
+- Triển khai bộ phân loại hình ảnh dùng CNN (vd: dataset CIFAR-10)
+- Xây dựng model dự báo chuỗi thời gian dùng RNN
+- Sinh ảnh bằng GAN (vd: dùng DCGAN)
+- Áp dụng deep learning vào bài toán thực tế như phân tích cảm xúc (sentiment analysis) hoặc phân loại video
 
-## Checkpoint: Before You Move On
+## Checkpoint: Trước Khi Qua Phần Tiếp Theo
 
-You should now be able to:
+Bạn sẽ có thể:
 
-- Build and train deep neural networks for various tasks
-- Implement CNNs for image-related problems and RNNs for sequential data
-- Use PyTorch or TensorFlow to create deep learning models
+- Xây dựng và train deep neural network cho nhiều bài toán khác nhau
+- Triển khai CNN cho bài toán liên quan đến hình ảnh và RNN cho dữ liệu tuần tự
+- Dùng PyTorch hoặc TensorFlow để tạo model deep learning
 
 
-🔗 Next: [Specializations →](./05_specializations/nlp.md)
+🔗 Tiếp theo: [Specializations →](./05_specializations/nlp.md)

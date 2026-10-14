@@ -1,96 +1,96 @@
-# Programming for AI Engineering
+# Programming cho AI Engineering
 
-Programming is the foundation of AI engineering. Before diving into machine learning or building intelligent agents, you need to be comfortable writing, debugging, and collaborating on code.
+Programming là nền tảng của AI engineering. Trước khi đi sâu vào machine learning hay xây dựng các agent thông minh, bạn cần thoải mái viết code, debug, và cộng tác trên code.
 
-## Learning Objectives
+## Mục Tiêu Học Tập
 
-By the end of this module, you should be able to:
+Sau khi hoàn thành module này, bạn sẽ có thể:
 
-- Write Python code using variables, functions, loops, and conditionals
-- Work with data structures like lists, dictionaries, sets, and tuples
-- Understand OOP (object-oriented programming) in Python
-- Use Git and GitHub for version control and collaboration
-- Navigate and use the Linux command line
-- Write clean, modular, and well-documented code
-- Solve algorithmic problems and build small projects
+- Viết code Python với biến, hàm, vòng lặp, và câu lệnh điều kiện
+- Làm việc với các cấu trúc dữ liệu như list, dictionary, set, và tuple
+- Hiểu OOP (lập trình hướng đối tượng) trong Python
+- Dùng Git và GitHub để quản lý version và cộng tác
+- Điều hướng và sử dụng dòng lệnh Linux
+- Viết code sạch, theo module, và có tài liệu rõ ràng
+- Giải các bài toán thuật toán và xây dựng dự án nhỏ
 
-## Why It’s Important
+## Vì Sao Điều Này Quan Trọng
 
-AI engineering isn’t just about models — it’s about building systems. That includes cleaning data, automating pipelines, integrating APIs, and deploying code. All of this requires solid programming fundamentals.
+AI engineering không chỉ là về model — mà là về xây dựng hệ thống. Bao gồm làm sạch dữ liệu, tự động hóa pipeline, tích hợp API, và deploy code. Tất cả đều cần nền tảng lập trình vững chắc.
 
 
-## Core Topics & Resources
+## Chủ Đề Cốt Lõi & Tài Nguyên
 
 ### 1. Python Programming Basics
 
-- [Python for Everybody – University of Michigan (Coursera)](https://www.coursera.org/specializations/python) — **Free to audit**
-- [CS50’s Introduction to Programming with Python – Harvard (edX)](https://cs50.harvard.edu/python/) — **Free**
-- [Automate the Boring Stuff with Python (book + course)](https://automatetheboringstuff.com/) — **Free**
+- [Python for Everybody – University of Michigan (Coursera)](https://www.coursera.org/specializations/python) — **Miễn phí (audit)**
+- [CS50’s Introduction to Programming with Python – Harvard (edX)](https://cs50.harvard.edu/python/) — **Miễn phí**
+- [Automate the Boring Stuff with Python (sách + khóa học)](https://automatetheboringstuff.com/) — **Miễn phí**
 
-Covers:
-- Variables, data types
+Bao gồm:
+- Biến, kiểu dữ liệu
 - Control flow
-- Functions
-- Error handling
+- Hàm
+- Xử lý lỗi (error handling)
 - File I/O
 
-### 2. Data Structures and Algorithms in Python
+### 2. Data Structures and Algorithms trong Python
 
-- [Problem Solving with Algorithms and Data Structures](https://runestone.academy/runestone/books/published/pythonds/index.html) — **Free**
-- [LeetCode Easy Problems](https://leetcode.com/problemset/?difficulty=Easy) — **Free account**
-- [Data Structures - Python (freeCodeCamp)](https://www.youtube.com/watch?v=pkYVOmU3MgA) — **Free**
+- [Problem Solving with Algorithms and Data Structures](https://runestone.academy/runestone/books/published/pythonds/index.html) — **Miễn phí**
+- [LeetCode Easy Problems](https://leetcode.com/problemset/?difficulty=Easy) — **Tài khoản miễn phí**
+- [Data Structures - Python (freeCodeCamp)](https://www.youtube.com/watch?v=pkYVOmU3MgA) — **Miễn phí**
 
-Covers:
-- Lists, dictionaries, sets, tuples
-- Searching and sorting
-- Recursion
-- Time/space complexity basics
+Bao gồm:
+- List, dictionary, set, tuple
+- Tìm kiếm và sắp xếp
+- Đệ quy (recursion)
+- Kiến thức cơ bản về time/space complexity
 
 ### 3. Object-Oriented Programming (OOP)
 
-- [Object-Oriented Programming in Python – Real Python](https://realpython.com/python3-object-oriented-programming/) — **Free**
-- [Python OOP Tutorial (YouTube)](https://www.youtube.com/watch?v=JeznW_7DlB0) — **Free**
+- [Object-Oriented Programming in Python – Real Python](https://realpython.com/python3-object-oriented-programming/) — **Miễn phí**
+- [Python OOP Tutorial (YouTube)](https://www.youtube.com/watch?v=JeznW_7DlB0) — **Miễn phí**
 
-Covers:
-- Classes and objects
-- Inheritance and polymorphism
-- Encapsulation and abstraction
+Bao gồm:
+- Class và object
+- Kế thừa (inheritance) và đa hình (polymorphism)
+- Đóng gói (encapsulation) và trừu tượng hóa (abstraction)
 
 ### 4. Git & GitHub
 
-- [The Odin Project – Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git) — **Free**
-- [Git Handbook by GitHub](https://guides.github.com/introduction/git-handbook/) — **Free**
-- [Git and GitHub Crash Course (YouTube)](https://www.youtube.com/watch?v=RGOj5yH7evk) — **Free**
+- [The Odin Project – Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/setting-up-git) — **Miễn phí**
+- [Git Handbook by GitHub](https://guides.github.com/introduction/git-handbook/) — **Miễn phí**
+- [Git and GitHub Crash Course (YouTube)](https://www.youtube.com/watch?v=RGOj5yH7evk) — **Miễn phí**
 
-Covers:
-- Version control
-- Cloning, commits, branches
-- Pull requests and collaboration
+Bao gồm:
+- Quản lý version
+- Clone, commit, branch
+- Pull request và cộng tác
 
 ### 5. Linux Command Line
 
-- [Linux Command Line Basics – Coursera (UC Davis)](https://www.coursera.org/learn/linux-command-line) — **Free to audit**
-- [Introduction to Linux – edX (Linux Foundation)](https://www.edx.org/course/introduction-to-linux) — **Free to audit**
+- [Linux Command Line Basics – Coursera (UC Davis)](https://www.coursera.org/learn/linux-command-line) — **Miễn phí (audit)**
+- [Introduction to Linux – edX (Linux Foundation)](https://www.edx.org/course/introduction-to-linux) — **Miễn phí (audit)**
 
-Covers:
-- Navigating the file system
-- Permissions
-- Shell scripting basics
+Bao gồm:
+- Điều hướng hệ thống file
+- Phân quyền (permissions)
+- Kiến thức cơ bản shell scripting
 
-## Suggested Practice & Projects
+## Gợi Ý Thực Hành & Dự Án
 
-- Rebuild a basic calculator CLI app in Python
-- Create a contact book or to-do list using OOP
-- Write shell scripts to automate repetitive tasks
-- Push your code to GitHub and collaborate with a peer
+- Xây lại một ứng dụng CLI máy tính cơ bản bằng Python
+- Tạo sổ liên lạc hoặc to-do list dùng OOP
+- Viết shell script để tự động hóa các tác vụ lặp lại
+- Push code lên GitHub và cộng tác với bạn học
 
-## Checkpoint: Before You Move On
+## Checkpoint: Trước Khi Qua Phần Tiếp Theo
 
-You should now be able to:
+Bạn sẽ có thể:
 
-- Build basic Python programs from scratch
-- Use Git to track and share your code
-- Navigate the Linux terminal
-- Understand how code is structured in real-world AI projects
+- Xây dựng chương trình Python cơ bản từ đầu
+- Dùng Git để theo dõi và chia sẻ code
+- Điều hướng terminal Linux
+- Hiểu cách code được tổ chức trong các dự án AI thực tế
 
-🔗 Next: [Math for AI →](./02_math.md)
+🔗 Tiếp theo: [Math for AI →](./02_math.md)
