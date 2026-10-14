@@ -1,101 +1,101 @@
-# Natural Language Processing (NLP) for AI Engineering
+# Natural Language Processing (NLP) cho AI Engineering
 
-Natural Language Processing (NLP) is a specialized area of AI focused on enabling computers to understand, interpret, and generate human language. From chatbots to machine translation, NLP powers many of today’s most common AI applications.
+Natural Language Processing (NLP) là một lĩnh vực chuyên sâu của AI, tập trung giúp máy tính hiểu, diễn giải, và sinh ngôn ngữ con người. Từ chatbot đến dịch máy, NLP vận hành nhiều ứng dụng AI phổ biến nhất hiện nay.
 
-## Learning Objectives
+## Mục Tiêu Học Tập
 
-By the end of this module, you should be able to:
+Sau khi hoàn thành module này, bạn sẽ có thể:
 
-- Understand the key concepts in NLP such as tokenization, stemming, and part-of-speech tagging
-- Implement NLP techniques using Python and libraries like NLTK, SpaCy, and Hugging Face
-- Build models for tasks like text classification, sentiment analysis, named entity recognition (NER), and machine translation
-- Work with pre-trained language models and fine-tune them for custom tasks
+- Hiểu các khái niệm chính trong NLP như tokenization, stemming, và part-of-speech tagging
+- Triển khai kỹ thuật NLP bằng Python và các thư viện như NLTK, SpaCy, và Hugging Face
+- Xây dựng model cho các bài toán như phân loại văn bản, phân tích cảm xúc (sentiment analysis), named entity recognition (NER), và dịch máy
+- Làm việc với pre-trained language model và fine-tune chúng cho bài toán riêng
 
-## Why It’s Important
+## Vì Sao Điều Này Quan Trọng
 
-NLP is the cornerstone of AI systems that deal with human language. It is central to virtual assistants, search engines, social media analysis, and many other industries. Understanding NLP is key for building modern AI systems that interact with humans in natural, meaningful ways.
+NLP là nền móng của các hệ thống AI xử lý ngôn ngữ con người. Nó là trung tâm của trợ lý ảo, công cụ tìm kiếm, phân tích mạng xã hội, và nhiều ngành khác. Hiểu NLP là chìa khóa để xây dựng hệ thống AI hiện đại tương tác với con người một cách tự nhiên, có ý nghĩa.
 
-## Core Topics & Resources
+## Chủ Đề Cốt Lõi & Tài Nguyên
 
 ### 1. Introduction to NLP
 
-- [Natural Language Processing with Python – NLTK Book](https://www.nltk.org/book/) — **Free**
-- [Introduction to Natural Language Processing – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/natural-language-processing) — **Free to audit**
-- [Python for NLP – Real Python](https://realpython.com/tutorials/nlp/) — **Free**
+- [Natural Language Processing with Python – NLTK Book](https://www.nltk.org/book/) — **Miễn phí**
+- [Introduction to Natural Language Processing – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/natural-language-processing) — **Miễn phí (audit)**
+- [Python for NLP – Real Python](https://realpython.com/tutorials/nlp/) — **Miễn phí**
 
-Covers:
-- Tokenization, stemming, and lemmatization
-- Part-of-speech tagging and named entity recognition (NER)
-- Text preprocessing techniques (removing stop words, punctuation, etc.)
+Bao gồm:
+- Tokenization, stemming, và lemmatization
+- Part-of-speech tagging và named entity recognition (NER)
+- Kỹ thuật tiền xử lý văn bản (loại bỏ stop word, dấu câu, v.v.)
 
 ### 2. Text Classification & Sentiment Analysis
 
-- [Text Classification – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/natural-language-processing) — **Free to audit**
-- [Sentiment Analysis with Python – DataCamp](https://www.datacamp.com/courses/sentiment-analysis-in-python) — **Paid**
+- [Text Classification – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/natural-language-processing) — **Miễn phí (audit)**
+- [Sentiment Analysis with Python – DataCamp](https://www.datacamp.com/courses/sentiment-analysis-in-python) — **Trả phí**
 
-Covers:
-- Bag of Words (BoW) and TF-IDF
-- Sentiment analysis on product reviews or social media data
-- Using machine learning models (SVM, Naive Bayes) for text classification
+Bao gồm:
+- Bag of Words (BoW) và TF-IDF
+- Phân tích cảm xúc trên review sản phẩm hoặc dữ liệu mạng xã hội
+- Dùng model machine learning (SVM, Naive Bayes) cho phân loại văn bản
 
 ### 3. Named Entity Recognition (NER)
 
-- [Named Entity Recognition with SpaCy – Real Python](https://realpython.com/natural-language-processing-spacy-python/#named-entity-recognition-ner) — **Free**
-- [Named Entity Recognition with Hugging Face Transformers – Hugging Face Blog](https://huggingface.co/blog/named-entity-recognition) — **Free**
+- [Named Entity Recognition with SpaCy – Real Python](https://realpython.com/natural-language-processing-spacy-python/#named-entity-recognition-ner) — **Miễn phí**
+- [Named Entity Recognition with Hugging Face Transformers – Hugging Face Blog](https://huggingface.co/blog/named-entity-recognition) — **Miễn phí**
 
-Covers:
-- What is NER?
-- Implementing NER with SpaCy and Hugging Face
-- Extracting entities like dates, names, and locations from text
+Bao gồm:
+- NER là gì?
+- Triển khai NER với SpaCy và Hugging Face
+- Trích xuất thực thể như ngày tháng, tên, địa điểm từ văn bản
 
 ### 4. Machine Translation & Sequence-to-Sequence Models
 
-- [Sequence Models – Coursera (Andrew Ng)](https://www.coursera.org/learn/sequence-models) — **Free to audit**
-- [Neural Machine Translation with Attention Mechanism – Towards Data Science](https://towardsdatascience.com/understanding-the-attention-mechanism-in-nmt-cc1c8a9932b3) — **Free**
+- [Sequence Models – Coursera (Andrew Ng)](https://www.coursera.org/learn/sequence-models) — **Miễn phí (audit)**
+- [Neural Machine Translation with Attention Mechanism – Towards Data Science](https://towardsdatascience.com/understanding-the-attention-mechanism-in-nmt-cc1c8a9932b3) — **Miễn phí**
 
-Covers:
-- Basics of sequence-to-sequence models (Seq2Seq)
-- Attention mechanism in machine translation
-- Implementing neural machine translation (NMT) models
+Bao gồm:
+- Kiến thức cơ bản về sequence-to-sequence model (Seq2Seq)
+- Attention mechanism trong dịch máy
+- Triển khai model neural machine translation (NMT)
 
 ### 5. Pretrained Language Models & Fine-Tuning
 
-- [Transformers for NLP – Hugging Face Course](https://huggingface.co/course) — **Free**
-- [Transfer Learning for NLP – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/transfer-learning-for-nlp) — **Free to audit**
+- [Transformers for NLP – Hugging Face Course](https://huggingface.co/course) — **Miễn phí**
+- [Transfer Learning for NLP – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/transfer-learning-for-nlp) — **Miễn phí (audit)**
 
-Covers:
-- Introduction to transformers (BERT, GPT)
-- Fine-tuning pre-trained models for specific NLP tasks
-- Using Hugging Face’s Transformers library
+Bao gồm:
+- Giới thiệu về transformer (BERT, GPT)
+- Fine-tune model pre-trained cho bài toán NLP cụ thể
+- Dùng thư viện Transformers của Hugging Face
 
 ### 6. Advanced NLP Resources
 
-- [Awesome NLP (GitHub)](https://github.com/keon/awesome-nlp) — Curated list of NLP libraries, datasets, and papers
-- [Papers With Code – NLP](https://paperswithcode.com/area/natural-language-processing) — Latest research and code implementations
-- [Hugging Face Model Hub](https://huggingface.co/models) — Repository of pre-trained NLP models
-- [spaCy Universe](https://spacy.io/universe) — NLP tools, extensions, and pipelines
-- [ACL Anthology](https://aclanthology.org/) — Research papers from top NLP conferences
-- [NLU Benchmark Leaderboards](https://super.gluebenchmark.com/) — State-of-the-art benchmarks for NLP tasks
+- [Awesome NLP (GitHub)](https://github.com/keon/awesome-nlp) — Danh sách tổng hợp thư viện, dataset, và paper NLP
+- [Papers With Code – NLP](https://paperswithcode.com/area/natural-language-processing) — Nghiên cứu mới nhất và code triển khai
+- [Hugging Face Model Hub](https://huggingface.co/models) — Kho model NLP pre-trained
+- [spaCy Universe](https://spacy.io/universe) — Công cụ, extension, và pipeline NLP
+- [ACL Anthology](https://aclanthology.org/) — Paper nghiên cứu từ các hội nghị NLP hàng đầu
+- [NLU Benchmark Leaderboards](https://super.gluebenchmark.com/) — Benchmark hiện đại nhất cho bài toán NLP
 
-Covers:
-- SOTA models and leaderboards
-- Open-source NLP toolkits and libraries
-- Access to latest datasets and research
-- Community-curated resources
+Bao gồm:
+- Model và leaderboard SOTA
+- Bộ công cụ và thư viện NLP mã nguồn mở
+- Truy cập dataset và nghiên cứu mới nhất
+- Tài nguyên do cộng đồng tổng hợp
 
-## Suggested Practice & Projects
+## Gợi Ý Thực Hành & Dự Án
 
-- Build a spam classifier using Naive Bayes or SVM
-- Create a sentiment analysis tool for social media posts or product reviews
-- Implement a chatbot using Seq2Seq models
-- Fine-tune a transformer model (e.g., BERT) for a text classification task
+- Xây dựng bộ phân loại spam dùng Naive Bayes hoặc SVM
+- Tạo công cụ phân tích cảm xúc cho bài đăng mạng xã hội hoặc review sản phẩm
+- Triển khai chatbot dùng model Seq2Seq
+- Fine-tune model transformer (vd: BERT) cho bài toán phân loại văn bản
 
-## Checkpoint: Before You Move On
+## Checkpoint: Trước Khi Qua Phần Tiếp Theo
 
-You should now be able to:
+Bạn sẽ có thể:
 
-- Implement basic NLP tasks like text classification, sentiment analysis, and NER
-- Work with pre-trained models and fine-tune them for specific tasks
-- Apply advanced NLP models like transformers to solve real-world problems
+- Triển khai các bài toán NLP cơ bản như phân loại văn bản, phân tích cảm xúc, và NER
+- Làm việc với model pre-trained và fine-tune cho bài toán cụ thể
+- Áp dụng model NLP nâng cao như transformer để giải bài toán thực tế
 
-🔗 Next: [Computer Vision →](./computer-vision.md)
+🔗 Tiếp theo: [Computer Vision →](./computer-vision.md)

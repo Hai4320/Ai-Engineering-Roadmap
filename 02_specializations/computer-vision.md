@@ -1,104 +1,104 @@
-# Computer Vision for AI Engineering
+# Computer Vision cho AI Engineering
 
-Computer Vision (CV) enables machines to interpret and understand the visual world. It's the driving force behind technologies like facial recognition, autonomous vehicles, medical image analysis, and more.
-
-
-## Learning Objectives
-
-By the end of this module, you should be able to:
-
-- Understand key concepts in image processing and computer vision
-- Build and train deep learning models (CNNs) for image classification, object detection, and segmentation
-- Work with OpenCV and deep learning frameworks for CV tasks
-- Apply transfer learning using pre-trained models like ResNet and EfficientNet
+Computer Vision (CV) giúp máy móc diễn giải và hiểu thế giới hình ảnh. Đây là động lực đứng sau các công nghệ như nhận diện khuôn mặt, xe tự lái, phân tích ảnh y tế, và nhiều hơn nữa.
 
 
-## Why It’s Important
+## Mục Tiêu Học Tập
 
-Computer Vision is a core specialization in AI. From healthcare to self-driving cars, it allows AI to see and make sense of the world. Learning CV equips you to build models that interact with the visual environment.
+Sau khi hoàn thành module này, bạn sẽ có thể:
+
+- Hiểu các khái niệm chính trong xử lý ảnh (image processing) và computer vision
+- Xây dựng và train model deep learning (CNN) cho phân loại hình ảnh, object detection, và segmentation
+- Làm việc với OpenCV và các framework deep learning cho bài toán CV
+- Áp dụng transfer learning dùng các model pre-trained như ResNet và EfficientNet
 
 
-## Core Topics & Resources
+## Vì Sao Điều Này Quan Trọng
+
+Computer Vision là một chuyên môn cốt lõi trong AI. Từ y tế đến xe tự lái, nó giúp AI "nhìn" và hiểu thế giới. Học CV trang bị cho bạn khả năng xây dựng model tương tác với môi trường hình ảnh.
+
+
+## Chủ Đề Cốt Lõi & Tài Nguyên
 
 ### 1. Introduction to Computer Vision
 
-- [Python & OpenCV for Computer Vision – FreeCodeCamp](https://www.youtube.com/watch?v=oXlwWbU8l2o) — **Free**
-- [Computer Vision Basics – Coursera (UMich)](https://www.coursera.org/learn/computer-vision-basics) — **Free to audit**
+- [Python & OpenCV for Computer Vision – FreeCodeCamp](https://www.youtube.com/watch?v=oXlwWbU8l2o) — **Miễn phí**
+- [Computer Vision Basics – Coursera (UMich)](https://www.coursera.org/learn/computer-vision-basics) — **Miễn phí (audit)**
 
-Covers:
-- Digital images and pixels
-- Color spaces (RGB, HSV, Grayscale)
-- Image filters, transformations, edge detection
+Bao gồm:
+- Ảnh số (digital images) và pixel
+- Không gian màu (RGB, HSV, Grayscale)
+- Bộ lọc ảnh, biến đổi ảnh, edge detection
 
-### 2. Image Classification with CNNs
+### 2. Image Classification với CNN
 
-- [CS231n: Convolutional Neural Networks – Stanford](http://cs231n.stanford.edu/) — **Free**
-- [Intro to Deep Learning for Computer Vision – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/convolutional-neural-networks) — **Free to audit**
-- [Fast.ai Part 1](https://course.fast.ai/) — **Free**
+- [CS231n: Convolutional Neural Networks – Stanford](http://cs231n.stanford.edu/) — **Miễn phí**
+- [Intro to Deep Learning for Computer Vision – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/convolutional-neural-networks) — **Miễn phí (audit)**
+- [Fast.ai Part 1](https://course.fast.ai/) — **Miễn phí**
 
-Covers:
-- CNNs (Conv, Pooling, Fully Connected layers)
-- Architectures: LeNet, AlexNet, ResNet
-- Transfer learning and fine-tuning
+Bao gồm:
+- CNN (lớp Conv, Pooling, Fully Connected)
+- Kiến trúc: LeNet, AlexNet, ResNet
+- Transfer learning và fine-tuning
 
 ### 3. Object Detection
 
-- [Object Detection with YOLOv5 – Roboflow Guide](https://blog.roboflow.com/how-to-train-yolov5-on-a-custom-dataset/) — **Free**
-- [TensorFlow Object Detection API Tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/) — **Free**
+- [Object Detection with YOLOv5 – Roboflow Guide](https://blog.roboflow.com/how-to-train-yolov5-on-a-custom-dataset/) — **Miễn phí**
+- [TensorFlow Object Detection API Tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/) — **Miễn phí**
 
-Covers:
-- Sliding window vs. region proposal vs. YOLO
-- Anchor boxes, confidence scores, IOU
-- Real-time object detection and applications
+Bao gồm:
+- Sliding window so với region proposal so với YOLO
+- Anchor box, confidence score, IOU
+- Object detection thời gian thực và ứng dụng
 
 ### 4. Image Segmentation
 
-- [Image Segmentation – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/convolutional-neural-networks) — **Free to audit**
-- [U-Net: Convolutional Networks for Biomedical Image Segmentation (Paper)](https://arxiv.org/abs/1505.04597) — **Free**
+- [Image Segmentation – Coursera (DeepLearning.AI)](https://www.coursera.org/learn/convolutional-neural-networks) — **Miễn phí (audit)**
+- [U-Net: Convolutional Networks for Biomedical Image Segmentation (Paper)](https://arxiv.org/abs/1505.04597) — **Miễn phí**
 
-Covers:
-- Semantic vs. instance segmentation
-- U-Net and Mask R-CNN architectures
-- Applications in healthcare, satellite imagery
+Bao gồm:
+- Semantic segmentation so với instance segmentation
+- Kiến trúc U-Net và Mask R-CNN
+- Ứng dụng trong y tế, ảnh vệ tinh
 
 ### 5. Advanced & Real-World CV Projects
 
-- [Build a Face Recognition System – PyImageSearch](https://pyimagesearch.com/2021/04/26/opencv-face-recognition/) — **Paid**
-- [Autonomous Driving with Computer Vision – Udacity](https://www.udacity.com/course/introduction-to-self-driving-cars--ud513) — **Free (auditable)**
+- [Build a Face Recognition System – PyImageSearch](https://pyimagesearch.com/2021/04/26/opencv-face-recognition/) — **Trả phí**
+- [Autonomous Driving with Computer Vision – Udacity](https://www.udacity.com/course/introduction-to-self-driving-cars--ud513) — **Miễn phí (audit)**
 
-Covers:
-- Face detection and recognition
-- Lane detection and traffic sign classification
-- Safety and edge deployment
+Bao gồm:
+- Phát hiện và nhận diện khuôn mặt
+- Phát hiện làn đường và phân loại biển báo giao thông
+- An toàn và triển khai trên edge device
 
 ### 6. Advanced Computer Vision Resources
 
-- [Awesome Computer Vision (GitHub)](https://github.com/jbhuang0604/awesome-computer-vision) — Curated list of papers, datasets, and libraries
-- [Papers With Code – Computer Vision](https://paperswithcode.com/area/computer-vision) — Latest research and code implementations
-- [MMDetection (OpenMMLab)](https://github.com/open-mmlab/mmdetection) — Powerful open-source object detection toolbox
-- [Albumentations](https://albumentations.ai/) — Fast image augmentation library
-- [CVPR Conference Proceedings](https://openaccess.thecvf.com/CVPR2023?day=all) — Cutting-edge research papers
-- [Roboflow Universe](https://universe.roboflow.com/) — Public datasets and pre-trained models for CV
+- [Awesome Computer Vision (GitHub)](https://github.com/jbhuang0604/awesome-computer-vision) — Danh sách tổng hợp paper, dataset, và thư viện
+- [Papers With Code – Computer Vision](https://paperswithcode.com/area/computer-vision) — Nghiên cứu mới nhất và code triển khai
+- [MMDetection (OpenMMLab)](https://github.com/open-mmlab/mmdetection) — Bộ công cụ object detection mã nguồn mở mạnh mẽ
+- [Albumentations](https://albumentations.ai/) — Thư viện augmentation ảnh nhanh
+- [CVPR Conference Proceedings](https://openaccess.thecvf.com/CVPR2023?day=all) — Paper nghiên cứu hàng đầu
+- [Roboflow Universe](https://universe.roboflow.com/) — Dataset công khai và model pre-trained cho CV
 
-Covers:
-- SOTA models and benchmarks
-- Data augmentation and preprocessing
-- Open-source toolkits for detection, segmentation, and more
-- Access to latest datasets and research
+Bao gồm:
+- Model và benchmark SOTA
+- Data augmentation và tiền xử lý
+- Bộ công cụ mã nguồn mở cho detection, segmentation, và nhiều hơn
+- Truy cập dataset và nghiên cứu mới nhất
 
-## Suggested Practice & Projects
+## Gợi Ý Thực Hành & Dự Án
 
-- Build an image classifier for animal species or plants
-- Detect faces or objects in real-time using OpenCV + YOLO
-- Segment medical images (lungs, tumors) with U-Net
-- Create an AI that can classify sign language from hand gestures
+- Xây dựng bộ phân loại hình ảnh cho loài động vật hoặc thực vật
+- Phát hiện khuôn mặt hoặc vật thể thời gian thực dùng OpenCV + YOLO
+- Phân đoạn (segment) ảnh y tế (phổi, khối u) với U-Net
+- Tạo AI phân loại ngôn ngữ ký hiệu từ cử chỉ tay
 
-## Checkpoint: Before You Move On
+## Checkpoint: Trước Khi Qua Phần Tiếp Theo
 
-You should now be able to:
+Bạn sẽ có thể:
 
-- Use CNNs for classification, detection, and segmentation
-- Apply OpenCV for image processing tasks
-- Train and deploy models for real-world vision applications
+- Dùng CNN cho classification, detection, và segmentation
+- Áp dụng OpenCV cho bài toán xử lý ảnh
+- Train và deploy model cho ứng dụng vision thực tế
 
-🔗 Next: [Reinforcement Learning →](./reinforcement-learning.md)
+🔗 Tiếp theo: [Reinforcement Learning →](./reinforcement-learning.md)
