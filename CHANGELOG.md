@@ -1,49 +1,49 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.  
-This project loosely follows Semantic Versioning:
+Mọi thay đổi đáng chú ý của dự án này sẽ được ghi lại trong file này.  
+Dự án này lỏng lẻo theo Semantic Versioning:
 
-- **MAJOR** – Changing the learning topics or scope  
-- **MINOR** – Replacing or improving courses within a topic  
-- **PATCH** – Aesthetic tweaks, structure changes, new docs, small fixes  
+- **MAJOR** – Thay đổi chủ đề học hoặc phạm vi chương trình  
+- **MINOR** – Thay thế hoặc cải thiện khóa học trong một chủ đề  
+- **PATCH** – Chỉnh sửa thẩm mỹ, thay đổi cấu trúc, thêm tài liệu, sửa lỗi nhỏ  
 
 ## [0.3.1] – 2025-05-17
-### Added
-- **CHANGELOG.md** – this file to track updates.
-- **CODE_OF_CONDUCT.md** – adopted Contributor Covenant as default code of conduct.
+### Thêm mới
+- **CHANGELOG.md** – file này để theo dõi cập nhật.
+- **CODE_OF_CONDUCT.md** – áp dụng Contributor Covenant làm quy tắc ứng xử mặc định.
 
 ## [0.3.0] – 2025-05-16
-### Added
-- 🎓 Full AI Curriculum Structure:
+### Thêm mới
+- 🎓 Cấu trúc chương trình AI đầy đủ:
   - `01_programming.md` – Python, Git, Linux, Data Structures
   - `02_math.md` – Linear Algebra, Calculus, Probability
-  - `03_machine-learning.md` – ML theory and practicals
+  - `03_machine-learning.md` – lý thuyết và thực hành ML
   - `04_deep-learning.md` – CNNs, RNNs, Transformers
   - `05_specializations/nlp.md` – Natural Language Processing
   - `05_specializations/computer-vision.md` – Computer Vision
-  - `05_specializations/reinforcement-learning.md` – RL and applications
-  - `06_modern-ai/llms.md` – LLM concepts and tools
-  - `06_modern-ai/agentic-ai.md` – Building Agentic AI with tools like LangChain
+  - `05_specializations/reinforcement-learning.md` – RL và ứng dụng
+  - `06_modern-ai/llms.md` – khái niệm và công cụ LLM
+  - `06_modern-ai/agentic-ai.md` – xây dựng Agentic AI với các công cụ như LangChain
   - `06_modern-ai/rag.md` – Retrieval-Augmented Generation
-  - `06_modern-ai/prompt-engineering.md` – Prompt crafting techniques
-  - `06_modern-ai/ai-tooling.md` – Toolkits and infra (e.g., Hugging Face, Weights & Biases)
-  - `07_capstone-projects.md` – AI Portfolio Projects
+  - `06_modern-ai/prompt-engineering.md` – kỹ thuật viết Prompt
+  - `06_modern-ai/ai-tooling.md` – bộ công cụ và hạ tầng (vd: Hugging Face, Weights & Biases)
+  - `07_capstone-projects.md` – dự án portfolio AI
 
 ## [0.2.2] – 2025-05-14
-### Added
-- `CONTRIBUTING.md` – guidelines for contributors
-- Downloadable README with structured learning path and TOC
-- `roadmap.png` – curriculum visual overview
-- GitHub repo organization and folder structure
+### Thêm mới
+- `CONTRIBUTING.md` – hướng dẫn cho người đóng góp
+- README có thể tải về với lộ trình học và TOC rõ ràng
+- `roadmap.png` – hình ảnh tổng quan chương trình học
+- Tổ chức repo GitHub và cấu trúc thư mục
 
 ## [0.2.1] – 2025-05-14
-### Added
-- 🧪 **Capstone Projects** section added to curriculum
-- Drafted project ideas: Personal GPT, Resume Parser, AI Agents, etc.
+### Thêm mới
+- 🧪 Thêm mục **Capstone Projects** vào chương trình học
+- Phác thảo ý tưởng dự án: Personal GPT, Resume Parser, AI Agents, v.v.
 
 ## [0.2.0] – 2025-05-12
-### Added
-- 📦 Modern AI modules:
+### Thêm mới
+- 📦 Các module Modern AI:
   - `06_modern-ai/llms.md`
   - `06_modern-ai/agentic-ai.md`
   - `06_modern-ai/rag.md`
@@ -51,15 +51,15 @@ This project loosely follows Semantic Versioning:
   - `06_modern-ai/ai-tooling.md`
 
 ## [0.1.1] – 2024-05-03
-### Added
-- ✨ Specializations:
+### Thêm mới
+- ✨ Các mảng chuyên sâu (Specializations):
   - NLP
   - Computer Vision
   - Reinforcement Learning
 
 ## [0.1.0] – 2024-04-12
-### Added
-- 🔰 Initial Public Release
-  - Project README with Table of Contents, goals, and path
-  - `/curriculum/` directory created
-  - Basic project structure and licensing
+### Thêm mới
+- 🔰 Phát hành công khai lần đầu
+  - README dự án với Mục Lục, mục tiêu, và lộ trình
+  - Tạo thư mục `/curriculum/`
+  - Cấu trúc dự án cơ bản và giấy phép

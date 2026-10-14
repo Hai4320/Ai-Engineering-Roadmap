@@ -1,32 +1,32 @@
-# Contributing Guide
+# Hướng Dẫn Đóng Góp
 
-Thank you for considering contributing to the Open Source AI Engineering Curriculum!  
-We welcome pull requests, feedback, and ideas to improve this learning journey for everyone.
+Cảm ơn bạn đã quan tâm đóng góp cho Open Source AI Engineering Curriculum!  
+Chúng tôi hoan nghênh pull request, góp ý, và ý tưởng để cải thiện hành trình học tập này cho mọi người.
 
-## What You Can Contribute
+## Bạn Có Thể Đóng Góp Gì
 
-- Fix broken or outdated links
-- Add new free and high-quality resources
-- Suggest or create project ideas
-- Improve explanations or structure
-- Translate content into other languages
-- Participate in discussions and issues
+- Sửa link hỏng hoặc đã lỗi thời
+- Thêm tài nguyên mới miễn phí và chất lượng cao
+- Đề xuất hoặc tạo ý tưởng dự án
+- Cải thiện phần giải thích hoặc cấu trúc
+- Dịch nội dung sang ngôn ngữ khác
+- Tham gia thảo luận và issue
 
-## 🛠️ How to Contribute
+## 🛠️ Cách Đóng Góp
 
-### 1. Fork the Repository
+### 1. Fork Repository
 
-Click “Fork” in the top right of this repo to create your own copy.
+Nhấn “Fork” ở góc trên bên phải repo này để tạo bản sao của riêng bạn.
 
-### 2. Create a Branch
+### 2. Tạo Branch
 
 ```bash
 git checkout -b feature/my-update
 ```
 
-### 3. Make Changes
+### 3. Thực Hiện Thay Đổi
 
-Use markdown (`.md`) files, and ensure links and formatting are consistent.
+Dùng file markdown (`.md`), đảm bảo link và định dạng nhất quán.
 
 ### 4. Commit & Push
 
@@ -36,22 +36,22 @@ git commit -m "feat: <commit_message>"
 git push origin feature/my-update
 ```
 
-### 5. Submit a Pull Request (PR)
+### 5. Gửi Pull Request (PR)
 
-Open a PR from your branch and describe your changes clearly.
+Mở PR từ branch của bạn và mô tả rõ ràng các thay đổi.
 
 ## Code Style & Best Practices
 
-- Use clear, consistent markdown formatting
-- Only **free and high-quality** resources
-- Prefer official docs, open source libraries, or academic material
-- Avoid overwhelming sections with too many links — curate thoughtfully
+- Dùng định dạng markdown rõ ràng, nhất quán
+- Chỉ dùng tài nguyên **miễn phí và chất lượng cao**
+- Ưu tiên tài liệu chính thức, thư viện mã nguồn mở, hoặc tài liệu học thuật
+- Tránh nhồi nhét quá nhiều link vào một mục — chọn lọc cẩn thận
 
-## Code of Conduct
+## Quy Tắc Ứng Xử
 
-We follow a [Code of Conduct](./CODE_OF_CONDUCT.md) to maintain a respectful and inclusive space. Be kind, be constructive.
+Chúng tôi tuân theo [Quy Tắc Ứng Xử](./CODE_OF_CONDUCT.md) để duy trì không gian tôn trọng và hòa nhập. Hãy tử tế, hãy mang tính xây dựng.
 
-## ❤️ Thank You
+## ❤️ Cảm Ơn Bạn
 
-Every contribution helps learners around the world.  
-We appreciate your time and effort 🙌
+Mỗi đóng góp đều giúp ích cho người học trên toàn thế giới.  
+Chúng tôi trân trọng thời gian và công sức của bạn 🙌

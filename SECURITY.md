@@ -1,14 +1,14 @@
-# 🔐 Security Policy
+# 🔐 Chính Sách Bảo Mật
 
-This is an open-source curriculum project.  
-It **does not run executable code** or handle any user data.
+Đây là dự án chương trình học mã nguồn mở.  
+Dự án **không chạy code thực thi** hay xử lý bất kỳ dữ liệu người dùng nào.
 
-## No Known Security Risks
+## Không Có Rủi Ro Bảo Mật Nào Được Biết Đến
 
-There are currently **no security concerns** associated with using or contributing to this repository.
+Hiện tại **không có vấn đề bảo mật nào** liên quan đến việc sử dụng hoặc đóng góp cho repository này.
 
-## Reporting Concerns
+## Báo Cáo Vấn Đề
 
-If you believe there's a security-related issue (such as a link to malicious content), feel free to [open an issue](https://github.com/AgenticAiLabs/Ai-Engineering-Roadmap/issues) or contact the maintainers.
+Nếu bạn phát hiện vấn đề liên quan đến bảo mật (ví dụ: link dẫn đến nội dung độc hại), hãy thoải mái [mở issue](https://github.com/AgenticAiLabs/Ai-Engineering-Roadmap/issues) hoặc liên hệ với các maintainer.
 
-Thank you for keeping the project safe and helpful for everyone.
+Cảm ơn bạn đã giúp dự án luôn an toàn và hữu ích cho mọi người.
